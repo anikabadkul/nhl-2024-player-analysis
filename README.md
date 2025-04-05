@@ -6,7 +6,7 @@ This project provides an interactive analytics dashboard and supporting data pip
 
 ## 📁 Project Files
 
-### 1. `nil_scraper.py`
+### 1. `nhl_scraper.py`
 A standalone Python script that:
 - Loads advanced NHL player stats from a local CSV (`sportsref.csv`)
 - Cleans and processes the data
@@ -19,7 +19,7 @@ A standalone Python script that:
   - Age vs. Possession bubble chart
 - Exports the cleaned dataset to `cleaned_nhl_stats.csv`
 
-### 2. `nil_dashboard.py`
+### 2. `nhl_dashboard.py`
 A fully interactive [Streamlit](https://streamlit.io) dashboard that:
 - Lets users filter players by team, position, or name
 - Displays:
