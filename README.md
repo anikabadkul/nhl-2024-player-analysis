@@ -4,7 +4,7 @@ This project provides an interactive analytics dashboard and supporting data pip
 
 ---
 
-## 📁 Project Files
+## Project Files
 
 ### 1. `nhl_scraper.py`
 A standalone Python script that:
@@ -23,24 +23,24 @@ A standalone Python script that:
 A fully interactive [Streamlit](https://streamlit.io) dashboard that:
 - Lets users filter players by team, position, or name
 - Displays:
-  - 📊 Top 10 players by Net Takeaway and Possession Score
-  - 🔢 All players sorted by last name
-  - 🧠 Team-level average stats
-  - 🔘 Age vs. Possession Score bubble chart
-  - 📍 Annotated scatterplot of team-level efficiency
+  - Top 10 players by Net Takeaway and Possession Score
+  - All players sorted by last name
+  - Team-level average stats
+  - Age vs. Possession Score bubble chart
+  - Annotated scatterplot of team-level efficiency
 - Intended for deployment on Streamlit Cloud
 
 ---
 
-## 📊 Key Metrics Explained
+## Key Metrics Explained
 
 - **Net Takeaway**: A custom metric subtracting giveaways from takeaways, reflecting puck control.
 - **Possession Score**: Average of Corsi For % (CF%) and Fenwick For % (FF%) as a proxy for puck possession dominance.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 📌 Locally
+###  Locally
 ```bash
 streamlit run nil_dashboard.py
